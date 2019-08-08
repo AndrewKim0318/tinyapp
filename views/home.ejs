@@ -10,10 +10,10 @@
   </head>
   <body>
 
-    <%- include partials/_header.ejs %>
+    <%- include partials/_header1.ejs %>
 
     <main style="margin: 1em;">
-      <h3 stlye="margin: 0 10px">My URLs</h3>
+      <h3 stlye="margin: 0 10px">Available URLs</h3>
       <table class="table">
         <thead style= "text-align: center">
           <tr>
@@ -22,8 +22,7 @@
             <th scope="col">Date Created</th>
             <th scope="col">Number of Visits</th>
             <th scope="col">Number of Unique Visits</th>
-            <th scope="col">Edit</th>
-            <th scope="col">Delete</th>
+            <th scope="col">Creator</th>
           </tr>
         </thead>
         <tbody style= "text-align: center"> 
@@ -34,16 +33,7 @@
               <td><%= urls[url]["creationDate"] %></td>
               <td><%= urls[url]["visits"] %></td>
               <td><%= urls[url]["uniqueVisits"] %></td>
-              <td>
-                <form method="POST" action="/urls/<%= url %>/edit?_method=PUT"> 
-                  <button type="submit" class="btn btn-outline-primary">Edit</button>
-                </form>
-              </td>
-              <td>
-                <form method="POST" action="/urls/<%= url %>/delete?_method=DELETE">
-                  <button type="submit" class="btn btn-outline-danger">Delete</button>
-                </form>
-              </td>
+              <td><%= urls[url]["userID"] %></td>
             </tr>
           <% } %>
         </tbody>

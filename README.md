@@ -5,16 +5,16 @@ TinyApp is a full stack web application built with Node and Express that allows 
 ## Final Product
 
 !["screenshot of homepage when user is logged in"]
-!(https://user-images.githubusercontent.com/49374585/62735855-5c62ad00-b9e9-11e9-9b52-5c78654d6fcd.png
+(https://user-images.githubusercontent.com/49374585/62735855-5c62ad00-b9e9-11e9-9b52-5c78654d6fcd.png
 )
 !["screenshot of homepage when user is not logged in"]
-!(https://user-images.githubusercontent.com/49374585/62735900-756b5e00-b9e9-11e9-9912-c170eb384880.png
+(https://user-images.githubusercontent.com/49374585/62735900-756b5e00-b9e9-11e9-9912-c170eb384880.png
 )
 !["screenshot of user's personal url database"]
-!(https://user-images.githubusercontent.com/49374585/62735943-903dd280-b9e9-11e9-89cf-19fd7850c24d.png
+(https://user-images.githubusercontent.com/49374585/62735943-903dd280-b9e9-11e9-89cf-19fd7850c24d.png
 )
 !["screenshot of creating new short url"]
-!(https://user-images.githubusercontent.com/49374585/62735981-a350a280-b9e9-11e9-972d-2b44b264b509.png
+(https://user-images.githubusercontent.com/49374585/62735981-a350a280-b9e9-11e9-972d-2b44b264b509.png
 )
 
 ## Dependencies
